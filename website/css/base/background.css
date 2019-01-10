@@ -5,7 +5,7 @@
 }
 .backgroundfilms {
     background: url(/images/backgrounds/backgroundfilms.gif);
-    background-size: cover;
+    background-size: contain;
     display: block;
 }
 body,
