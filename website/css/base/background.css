@@ -1,0 +1,22 @@
+.backgroundimage {
+    background: url(/images/backgrounds/backgroundimage.png);
+    background-size: contain;
+    display: block;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundimage2 {
+    background-image: url(/images/backgrounds/background-fed.gif);
+    background-size: contain;
+}
+
+@media only screen and (max-width:1023px) {
+    .backgroundimage {
+        background: #F6F5F5;
+    }
+}

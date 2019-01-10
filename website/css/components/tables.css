@@ -1,0 +1,33 @@
+table ,h2{
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th{
+    padding-bottom:90px;
+padding-right: 150px;
+   text-align: left;
+    
+    font-size: 20px;
+    width: 20%;
+}
+td{
+    padding-bottom:90px;
+padding-right: 150px;
+ font-size: 15px;
+    width: 20%;
+}
+table a{
+    color: black;
+}
+table a:hover{
+    transition: .5s;
+    color: #00ca69;
+}
+tables{
+    background-color: white;
+}
+.tbunderline{
+    border: 1px solid black;
+}

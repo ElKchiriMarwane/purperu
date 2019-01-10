@@ -1,0 +1,118 @@
+a{
+    text-decoration: none;
+    outline:none;
+}
+footer img {
+    width: 100px;
+    margin-top: -7%;
+    margin-left: 2%;
+    position:absolute;
+    
+}
+.footer-main-div{
+    width:100%;
+    height:auto;
+    margin:0px;;
+    background:#252864;
+    padding:20px 0px;
+}
+.footer-social-icons{
+    display: inline-block;
+    width: 100%;
+    height:auto;
+    margin:auto;
+    
+}.footer-social-icons ul{
+   margin:0px;
+    padding:0px;
+   
+    
+}
+.footer-social-icons ul li{
+   display:inline-block;
+    width:50px;
+    height:50px;
+    margin:0px 10px;
+    border-radius:100%;
+    background:#822eff;
+}
+
+.footer-sociial-icons ul li a{
+    color:#00ca69;
+    font-size:25px;
+    display:inline-block;
+    
+}
+.footer-social-icons ul li a i{
+    line-height: 50px;
+    color:white;
+    position:relative;
+    left:0;
+    right:0;
+    transition: 0.5s;
+    
+}
+.footer-social-icons ul li a i:hover{
+    line-height: 50px;
+    color:#252864;
+    transition:.5s;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    
+}
+.footer-menu-one{
+    width:100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer-menu-one ul{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+
+.footer-menu-one ul li{
+    display: inline-block;
+    margin:10px 20px;
+}
+.footer-menu-one ul li a{
+    font-family: 'arial';
+    font-size:16px;
+    font-weight: 600;
+    color:#fff;
+    transition: .5s;
+    margin-top: 20%;
+}
+.footer-menu-one ul li a:hover{  
+    font-family: 'arial';
+    font-size:16px;
+    font-weight: 600;
+    color:#00ca69;
+ 
+}
+.footer-bottom{
+    width:100%;
+    height:auto;
+    margin: auto;
+    background:#00ca69;
+    padding:0.1px;
+    transition: .5s;
+}
+.footer-bottom p{
+    font-family: 'arial';
+    font-size:10px;
+    text-align: center;
+    color:#fff;
+    font-weight:1;
+    letter-spacing: 1px;
+}
+.footer-bottom p a{
+    color:#fff;
+    transition: .5s;
+}
+.footer-bottom p a:hover{
+    color:#252864;
+    transition: .5s;
+}

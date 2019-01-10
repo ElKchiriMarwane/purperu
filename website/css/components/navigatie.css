@@ -1,0 +1,135 @@
+html{
+    font-family: sans-serif;
+}
+ 
+body {
+      margin: 0;
+      padding: 0;
+}
+nav img{
+    width: 8%;
+    display: block;
+    margin:0px;
+    float: left;
+    margin-left: 15%;
+}
+nav ul {
+    font-weight: bold;
+    transition: .5s;
+      margin: 75px;
+      padding: 0;
+      list-style-type: none;
+      
+      position: relative;
+    text-align: right;
+}
+ 
+nav ul li {
+    color: #00ca69;
+    transition: .5s;
+      display: inline-block;
+}
+ 
+nav ul li a {
+    transition: .5s;
+      color: black;
+      text-decoration: none;
+      padding: 15px;
+      display: block;
+}
+ 
+nav ul li:hover {
+    transition: .5s;
+      background: #F5F6F6;
+    color: #00ca69;
+}
+ nav ul li a:hover {
+    transition: .5s;
+      background: #F5F6F6;
+    color: #00ca69;
+}
+ 
+nav ul ul {
+    transition: .5s;
+      position: absolute;
+      min-width: 200px;
+     
+      display: none;
+}
+ 
+nav ul ul li {
+    transition: .5s;
+      display: block;
+      
+}
+ 
+ul li:hover ul {
+    transition: .5s;
+      display: block;
+    color: #00ca69;
+}
+ 
+nav ul li i {
+    transition: .5s;
+      color: #292929;
+      float: right;
+      padding-left: 20px;
+}
+nav .dropdown{
+    transition: .5s;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+ 
+ 
+nav div {
+    transition: .5s;
+      background: #F6F5F5;
+      color: #292929;
+      font-size: 24px;
+      padding: 0.6em;
+      cursor: pointer;
+      display: none;
+    margin-left: 100px;
+    
+}
+ 
+@media(max-width: 1023px) {
+    nav img{
+        float: right;
+        margin-right: 20%;
+        margin-top: 1%;
+    }
+      nav div {
+            display: block;
+      }
+ 
+      nav ul {
+          margin: 0;
+            display: none;
+            position: static;
+            background: #e3e3e3;
+      }
+ 
+      nav ul li {
+            display:block;
+          text-align: center;
+      }
+ 
+      nav ul ul {
+            position: static;
+            background: #e3e3e3;
+      }
+ 
+ 
+}
+@media(max-width: 1023px) {
+    nav img{
+        width: 25%;
+    }
+    nav div{
+        margin-left: 65px;
+    }
+}

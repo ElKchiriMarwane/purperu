@@ -1,0 +1,48 @@
+.legend{
+    margin-left: 15%;
+    margin-right: 20%;
+    float: left;
+    display: block;
+}
+.legend h3{
+    border-radius: 25px;
+    
+    padding: 7px 50px;
+    color: white;
+    font-family: 'arial', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 15px;
+}
+.kinderen{
+    background-color: #252864;
+}
+.volwassen{
+    background-color: #822eff;
+}
+.jongeren{
+    
+    background-color: #00ca69;
+}
+@media only screen and (max-width: 1023px){
+    .legend h3{
+        padding:;
+        font-size: 13px;
+        margin: 0px;
+        text-align: center;
+    }
+    .legend{
+        float: inherit;
+        text-align: center;
+        margin-top: 5%
+    }
+}
+@media only screen and (max-width: 700px){
+    .legend h3{
+        margin-top: 10px;
+    }
+    .legend{
+        margin-top: 10%;
+    }
+}
