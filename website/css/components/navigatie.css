@@ -63,7 +63,7 @@ nav ul ul li {
       
 }
  
-ul li:hover ul {
+nav ul li:hover ul {
     transition: .5s;
       display: block;
     color: #00ca69;
