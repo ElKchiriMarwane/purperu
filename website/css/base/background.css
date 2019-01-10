@@ -8,6 +8,11 @@
     background-size: cover;
     display: block;
 }
+.backgroundfilms1 {
+    background: url(/images/backgrounds/backgroundfilms.gif);
+    background-size: contain;
+    display: block;
+}
 body,
 html {
     margin: 0;
