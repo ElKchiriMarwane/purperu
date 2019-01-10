@@ -2,40 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Palliatieve zorg en kinderen| Films</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/iconmoon.css">
-    <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../fonts/iconmoon.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 
-<body>
-    <header>
-        <a href="index.html"><img src="/images/PZlogo.gif" alt="Logo"></a>
-        <div class="navbar">
-            <a href="index.html">home</a>
+<body class="backgroundfilms">
+     <header>
+        <nav>
 
-            <div class="dropdown">
-                <button class="dropbtn">palliatieve zorg
+            <div>
 
-                </button>
-                <div class="dropdown-content">
-                    <a href="#">Ze zijn nooit te klein</a>
-                    <a href="#">Verdriet hoort bij het leven</a>
-                    <a href="#">Geef ze de kans om afscheid te nemen</a>
-                    <a href="#">Dood maar niet over</a>
-                    <a href="#">Omgaan met reacties van anderen</a>
-                    <a href="#">Bijzondere situaties</a>
-                    <a href="#">Met kinderen over euthanasie praten</a>
-                    <a href="#">Wat helpt?</a>
-
-                </div>
             </div>
-            <a href="#boeken">boeken</a>
-            <a href="#films">films</a>
-            <a href="#links">links</a>
-            <a href="#contact">contact</a>
-        </div>
+<img src="../../images/logo/PZlogo.gif" alt="">
+
+            <div>
+                <i class="fa fa-bars"></i>
+            </div>
+
+            <ul>
+                <li><a href="#">home</a></li>
+                
+                <li><a href="#">palliatieve zorg <i class="fa fa-sort-desc"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">boeken</a></li>
+                <li><a href="#">films</a></li>
+                <li><a href="#">links</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
     </header>
+     <script type="text/javascript">
+        $("nav div").click(function() {
+            $("ul").slideToggle();
+            $("ul ul").css("display", "none");
+        });
+
+        $("ul li").click(function() {
+            $("ul ul").slideUp();
+            $(this).find('ul').slideToggle();
+        });
+
+        $(window).resize(function() {
+            if ($(window).width() > 768) {
+                $("ul").removeAttr('style');
+            }
+        });
+    </script>
+ <div class="undernav">
+            <li><a href="filmskinderen.html" class="cool-link">kleuters en lagere school</a></li>
+            <li><a href="filmsadolescenten.html" class="cool-link active">adolescenten</a></li>
+            <li><a href="filmsvolwassenen.html" class="cool-link">volwassenen</a></li>
+        </div>
     <main>
      <div>
 <h1>Buitenspel</h1>

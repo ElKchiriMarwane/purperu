@@ -3,7 +3,11 @@
     background-size: contain;
     display: block;
 }
-
+.backgroundfilms {
+    background: url(/images/backgrounds/backgroundfilms.gif);
+    background-size: cover;
+    display: block;
+}
 body,
 html {
     margin: 0;
