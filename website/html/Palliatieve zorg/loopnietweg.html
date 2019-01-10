@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Palliatieve Zorg Kinderen - Loop niet weg </title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div>
+
+            </div>
+
+            <div>
+                <i class="fa fa-bars"></i>
+            </div>
+
+            <ul>
+
+                <li><a href="#">home</a></li>
+                <img src="/img/PZlogo.gif" alt="">
+                <li><a href="#">palliatieve zorg <i class="fa fa-sort-desc"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="nooitteklein_algemeen.html">Ze zijn nooit te klein</a></li>
+                        <li><a href="verdriethoortbijhetleven.html">Verdriet hoort bij het leven</a></li>
+                        <li><a href="geefkans.html">Geef ze de kans om afscheid te nemen</a></li>
+                        <li><a href="doodmaarnietover.html">Dood maar niet over</a></li>
+                        <li><a href="omgaanmetanderen.html">Omgaan met reacties van anderen</a></li>
+                        <li><a href="bijzonderesituaties.html">Bijzondere situaties</a></li>
+                        <li><a href="metkinderenovereuthanasie.html">Met kinderen over euthanasie praten</a></li>
+                        <li><a href="wathelpthulpverleners.html">Wat helpt?</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">boeken</a></li>
+                <li><a href="#">films</a></li>
+                <li><a href="#">links</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<script type="text/javascript">
+        $("nav div").click(function() {
+            $("ul").slideToggle();
+            $("ul ul").css("display", "none");
+        });
+
+        $("ul li").click(function() {
+            $("ul ul").slideUp();
+            $(this).find('ul').slideToggle();
+        });
+
+        $(window).resize(function() {
+            if ($(window).width() > 768) {
+                $("ul").removeAttr('style');
+            }
+        });
+    </script>
+    <article>
+        <h1>Loop niet weg</h1>
+        <h2>Beluister hun vragen</h2>
+        <p>
+            Kinderen stellen vaak moeilijke vragen waarop een gepast antwoord geven niet altijd eenvoudig is. En de vragen komen vaak op de meest onverwachte momenten. <br />
+            Het is belangrijk dat we hun vragen beluisteren. Besteed er daarom voldoende aandacht en tijd aan. Probeer na te gaan wat er bij hen leeft en vertrouw erop dat kinderen maar vragen wat ze op dat moment aankunnen.
+        </p>
+
+        <p> Wees eerlijk tegen het kind of de jongere, zonder het te bruuskeren. Stel de informatie af op hun bevattingsvermogen en draagkracht. Geef hen geen valse hoop (“Oma zal wel weer beter worden”), maar hoop samen met hen op realistische zaken zoals de hoop dat papa zo goed mogelijk zal verzorgd worden of dat mama zo lang mogelijk zal thuis blijven.
+            Als je geen antwoord weet op een vraag, vertel dit dan eerlijk aan het kind of de jongere. Vraag eventueel wat het kind er zelf van denkt. Moedig hen aan om zoveel mogelijk vragen te stellen en zo vaak mogelijk op bezoek te gaan bij de zieke.</p>
+
+        <p>
+            Wanneer een vraag van een kind ongelegen komt, geef dan duidelijk aan dat je de vraag gehoord hebt maar er op dit moment niet kan op ingaan en waarom. Spreek af wanneer jullie de vraag samen weer opnemen.
+            Het kan gebeuren dat je zelf overmand wordt door emoties bij de vragen van een kind. Kinderen pikken die emoties feilloos op. Het is beter er open over te praten en bijvoorbeeld uit te leggen waarom je je verdrietig voelt.
+
+
+        </p>
+        <p>
+            Daarnaast is het van belang niet te wachten op vragen van het kind of de jongere. Soms durven zij hun vragen niet stellen, vinden ze geen gepast moment of weten ze niet hoe en aan wie ze hun vraag best stellen. Ga er niet van uit dat kinderen die geen vragen stellen er ook geen hebben. Durf hen zelf aanspreken hierover.
+
+
+        </p>
+    </article>
+
+<footer>
+        <div class="footer-main-div">
+
+            <div class="footer-menu-one">
+                <div class="footer-social-icons">
+                    <ul>
+                        <li><a href="https://www.facebook.com/palliatief/" target="blank"><i class="icon-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/FPZVlaanderen" target="blank"><i class="icon-twitter"></i></a></li>
+                        <li><a href="mailto:info@palliatief.be" ><i class="icon-mail"></i></a></li>
+                    </ul>
+                </div>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">palliatieve zorg</a></li>
+                    <li><a href="#">boeken</a></li>
+                    <li><a href="#">films</a></li>
+                    <li><a href="#">links</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Federatie Palliatieve Zorg Vlaanderen vzw - J. Vander Vekenstraat 158 - 1780 WEMMEL
+                <br> tel 02 456 82 00 | fax 02 461 24 41 | e-mail <a href="mailto:info@palliatief.be">info@palliatief.be</a> | website <a href="http://www.palliatief.be/">www.palliatief.be</a></p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
