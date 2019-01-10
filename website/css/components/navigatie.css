@@ -40,12 +40,12 @@ nav ul li a {
  
 nav ul li:hover {
     transition: .5s;
-      background: #F5F6F6;
+      
     color: #00ca69;
 }
  nav ul li a:hover {
     transition: .5s;
-      background: #F5F6F6;
+      
     color: #00ca69;
 }
  
