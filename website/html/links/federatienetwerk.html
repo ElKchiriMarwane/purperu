@@ -2,39 +2,67 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Federatie en netwerken</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Federatienetwerk</title>
     <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../fonts/iconmoon.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 
-<body>
-    <div class="backgroundimagefednetwerk">
-        <header>
-            <img src="/images/PZlogo.gif" alt="">
-            <div class="navbar">
+<body class="backgroundimagelinks">
 
-                <a href="#home">home</a>
+    <header>
+        <nav>
 
-                <div class="dropdown">
-                    <button class="dropbtn">palliatieve zorg</button>
-                    <div class="dropdown-content">
-                        <a href="#">Ze zijn nooit te klein</a>
-                        <a href="#">Verdriet hoort bij het leven</a>
-                        <a href="#">Geef ze de kans om afscheid te nemen</a>
-                        <a href="#">Dood maar niet over</a>
-                        <a href="#">Omgaan met reacties van anderen</a>
-                        <a href="#">Bijzondere situaties</a>
-                        <a href="#">Met kinderen over euthanasie praten</a>
-                        <a href="#">Wat helpt?</a>
+            <div>
 
-                    </div>
-                </div>
-                <a href="#boeken">boeken</a>
-                <a href="#films">films</a>
-                <a href="#links">links</a>
-                <a href="#contact">contact</a>
             </div>
-        </header>
+<img src="../../images/logo/PZlogo.gif" alt="">
+
+            <div>
+                <i class="fa fa-bars"></i>
+            </div>
+
+            <ul>
+                <li><a href="#">home</a></li>
+                
+                <li><a href="#">palliatieve zorg <i class="fa fa-sort-desc"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">boeken</a></li>
+                <li><a href="#">films</a></li>
+                <li><a href="#">links</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script type="text/javascript">
+        $("nav div").click(function() {
+            $("ul").slideToggle();
+            $("ul ul").css("display", "none");
+        });
+
+        $("ul li").click(function() {
+            $("ul ul").slideUp();
+            $(this).find('ul').slideToggle();
+        });
+
+        $(window).resize(function() {
+            if ($(window).width() > 768) {
+                $("ul").removeAttr('style');
+            }
+        });
+    </script>
+
+
         <main>
             <div class="undernav">
                 <li><a href="index.html" class="cool-link ">linken</a></li>
