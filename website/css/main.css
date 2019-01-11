@@ -1,21 +1,24 @@
-<<<<<<< HEAD
-@import url(../css/components/navigatie.css);
-@import url(../css/components/legend.css);
-@import url(../css/layout/links.css);
-@import url(../css/components/ondernavigatie.css);
-@import url(../css/base/background.css);
-@import url(../css/components/footer.css);
-@import url(../fonts/iconmoon.css);
-@import url(../css/components/tables.css);
-@import url(../css/layout/pz.css)
-=======
+/*components*/
 @import url(/css/components/navigatie.css);
 @import url(/css/components/legend.css);
+@import url(/css/components/ondernavigatie.css);
+@import url(/css/components/footer.css);
+@import url(/css/layout/links.css);
+@import url(/css/components/tables.css);
+@import url(/fonts/iconmoon.css);
+/*base*/
+@import url(/css/base/background.css);
+/*fonts*/
+@import url(/fonts/iconmoon.css);
+/*layout*/
+@import url(/css/layout/pz.css);
 @import url(/css/layout/links.css);
 @import url(/css/layout/films.css);
-@import url(/css/components/ondernavigatie.css);
-@import url(/css/base/background.css);
-@import url(/css/components/footer.css);
-@import url(/fonts/iconmoon.css);
-@import url(/css/components/tables.css);
->>>>>>> 1d41fe2b6163eced0206bee7223ee453a17a8d9b
+
+
+
+
+
+
+
+

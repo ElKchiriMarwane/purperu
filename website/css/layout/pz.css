@@ -3,7 +3,9 @@
     background-size:cover;
      background-repeat: repeat-y;
 }
-
+article nav{
+    margin: 0;
+}
 article li {
     margin-left: 100px;
     margin-right: 100px;
