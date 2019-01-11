@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/main.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <title>Kinder Palliatieve Zorgen - Boeken</title>
+</head>
+
+<body class="bodyBoek">
+     <header>
+        <nav>
+
+            <div>
+
+            </div>
+
+            <div>
+                <i class="fa fa-bars"></i>
+            </div>
+
+            <ul>
+
+                <li><a href="index.html">home</a></li>
+                <img src="/FOTOS/PZlogo.gif" alt="">
+                <li><a href="#">palliatieve zorg <i class="fa fa-sort-desc"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="boeken.html">boeken</a></li>
+                <li><a href="#">films</a></li>
+                <li><a href="#">links</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+     <script type="text/javascript">
+        $("nav div").click(function() {
+            $("ul").slideToggle();
+            $("ul ul").css("display", "none");
+        });
+
+        $("ul li").click(function() {
+            $("ul ul").slideUp();
+            $(this).find('ul').slideToggle();
+        });
+
+        $(window).resize(function() {
+            if ($(window).width() > 768) {
+                $("ul").removeAttr('style');
+            }
+        });
+    </script>
+    <div class="content">
+
+
+    <div class="textdiv">
+
+
+
+        <h2 class="h2boek">Kies uw</h2>
+        <h1 class="h1boek">categorie</h1>
+        <div class="textBoekenCategorie">
+            <p>Kies uw categorie om verder te gaan. Elke categorie is bedoeld voor een andere doelgroep.</p>
+        </div>
+        </div>
+
+<div class="buttonpos1">
+ <a href="boeken-lagereschool.html">
+  <button class="buttonchild buttonbig1">
+          <img class="icon" src="/FOTOS/child.gif" >
+           <h2 class="buttonh2">Lagere</h2>
+            <h1 class="buttonh1">school</h1>
+        </button>
+    </a>
+        </div>
+        <div class="buttonpos2">
+        <a class="jump" href="boeken-kinderen.html">
+  <button class="buttonkid buttonbig1" >
+
+
+          <img class="icon" src="/FOTOS/baby.gif" alt="">
+           <h2 class="buttonh2">Peuters en</h2>
+            <h1 class="buttonh1">kleuters</h1>
+
+        </button>
+        </a>
+        </div>
+        <div class="buttonpos3">
+        <a class="jump" href="boeken-ouders.html">
+  <button class="buttongrand buttonbig1">
+          <img class="icon" src="/FOTOS/grand.gif" alt="">
+           <h2 class="buttonh2">Adolocenten en</h2>
+            <h1 class="buttonh1">ouders</h1>
+        </button>
+            </a>
+        </div>
+         <div class="buttonpos4">
+         <a class="jump" href="boeken-info.html">
+  <button class="buttoninfo buttonbig1">
+          <img class="icon" src="/FOTOS/info.gif" alt="">
+           <h2 class="buttonh2">Informatieve</h2>
+            <h1 class="buttonh1">boeken</h1>
+        </button>
+             </a>
+        </div>
+
+
+
+
+
+    </div>
+
+    </body>
+
+</html>
+

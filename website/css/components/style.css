@@ -1,0 +1,129 @@
+body{
+
+    background-image: url(/FOTOS/backgroundFinal.gif);
+    margin: 0;
+    padding: 0;
+}
+.nav{
+
+
+
+    margin-left: -15px;
+
+}
+.nav a:hover{
+    color: #00CA69;
+}
+.content{
+    margin-top: 100px;
+
+     margin-left: 15%;
+    margin-right: 20%;
+
+}
+
+h2{
+
+    margin-top: 100px;
+
+}
+h1{
+
+    margin-top: -45px;
+
+}
+p{
+
+    margin-top: -20px;
+
+
+}
+
+.textBoeken
+{
+
+width: 50%;
+}
+
+.fotos{
+
+    float:right;
+    margin-top: -240px;
+
+    width: 350px;
+transition: .5s;
+   box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.2);
+}
+.fotos:hover{
+color: green;
+    float:right;
+    margin-top: -240px;
+opacity: 0.7;
+    transition: .5s;
+    width: 350px;
+cursor: pointer;
+   box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.2);
+}
+
+.button {
+  background-color: #00CA69;/* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+ margin-top: 100px;
+
+transition: .5s;
+}
+
+.button:hover {
+  background-color: #252864;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+transition: .5s;
+
+    margin-top: 100px;
+
+
+}
+.button:active {
+  background-color: dimgray;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+transition: .5s;
+    margin-top: 100px;
+     box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.2);
+
+}
+
+.button1 {border-radius: 25px;
+}
+
+.button p{
+
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+}

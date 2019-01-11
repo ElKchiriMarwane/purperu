@@ -1,0 +1,306 @@
+.textBoekenCategorie{
+
+
+width: 100%;
+}
+.textdiv{
+margin-top: 20%;
+width: 50%;
+}
+.icon{
+        width: 50%;
+    margin-top: -150px
+}
+.h2boek{
+
+width: 100%;
+}
+.h1boek{
+
+
+width: 100%;
+}
+.buttonh2
+{
+    margin-left: -2px;
+font-family: acumin-pro, sans-serif;
+
+font-weight: 300;
+font-style: normal;
+text-align: left;
+font-size: 20px;
+margin-bottom: 50px;
+
+    width: 100%;
+transition: .5s;
+}
+
+.buttonh1
+{
+
+font-family: arial, sans-serif;
+font-size: 24px;
+    font-weight: bold;
+text-align: left;
+    margin-left: -3px;
+    width: 100%;
+transition: .5s;
+
+}
+.buttonpos1{
+display: inline-block;
+float: right;
+width: 20%;
+    margin-top: -300px;
+    margin-left: -250px;
+    transition: .5s;
+}
+.buttonpos2{
+display: inline-block;
+float: right;
+width: 20%;
+    margin-top: -300px;
+    margin-right: 300px;
+    transition: .5s;
+}
+.buttonpos3{
+display: inline-block;
+float: right;
+width: 20%;
+    margin-top: 125px;
+    margin-right: -245px;
+    transition: .5s;
+}
+.buttonpos4{
+display: inline-block;
+float: right;
+width: 20%;
+    margin-top: 125px;
+    margin-right: -550px;
+    transition: .5s;
+}
+.buttonkid {
+  background-color: #00CA69;
+  border: none;
+  color: white;
+   padding: 150px 20px 40px ;
+transition: .5s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+    float:right;
+
+}
+
+
+.buttonkid:hover {
+  background-color: #00954d;
+  border: none;
+  color: white;
+  padding: 150px 35px 40px ;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+transition: .5s;
+    float:right;
+
+}
+.buttonkid:active {
+  background-color: dimgray;
+  border: none;
+  color: white;
+   padding: 150px 10px 30px ;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+transition: .5s;
+    float:right;
+
+}
+
+.buttonchild {
+  background-color: #822EFF;
+  border: none;
+  color: white;
+   padding: 150px 20px 40px ;
+transition: .5s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+    float:right;
+
+}
+
+.buttonchild:hover {
+  background-color: #512298;
+  border: none;
+  color: white;
+  padding: 150px 35px 40px ;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+transition: .5s;
+    float:right;
+
+}
+.buttonchild:active {
+  background-color: dimgray;
+  border: none;
+  color: white;
+   padding: 150px 10px 30px ;
+transition: .5s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+    float:right;
+
+}
+.buttongrand {
+  background-color: #252864;
+  border: none;
+  color: white;
+   padding: 150px 20px 40px ;
+transition: .5s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+    float:right;
+
+}
+
+.buttongrand:hover {
+  background-color: #4349ba;
+  border: none;
+  color: white;
+  padding: 150px 35px 40px ;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+transition: .5s;
+    float:right;
+
+}
+.buttongrand:active {
+  background-color: dimgray;
+  border: none;
+  color: white;
+   padding: 150px 10px 30px ;
+transition: .5s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+    float:right;
+
+}
+.buttoninfo {
+  background-color:#0B1B20;
+   border: none;
+  color: white;
+   padding: 150px 20px 40px ;
+transition: .5s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+    float:right;
+
+}
+.buttoninfo:hover {
+  background-color: #15323b;
+  border: none;
+  color: white;
+  padding: 150px 35px 40px ;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+transition: .5s;
+    float:right;
+
+}
+.buttoninfo:active {
+  background-color: dimgray;
+  border: none;
+  color: white;
+   padding: 150px 10px 30px ;
+transition: .5s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+    float:right;
+
+}
+
+.buttonbig1 {border-radius: 60px;
+}
+
+.buttonkid p{
+
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.buttonchild p{
+
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.buttongrand p{
+
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.buttoninfo p{
+
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+}
