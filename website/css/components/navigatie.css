@@ -40,12 +40,12 @@ nav ul li a {
  
 nav ul li:hover {
     transition: .5s;
-      background: #F5F6F6;
+      
     color: #00ca69;
 }
  nav ul li a:hover {
     transition: .5s;
-      background: #F5F6F6;
+      
     color: #00ca69;
 }
  
@@ -63,7 +63,7 @@ nav ul ul li {
       
 }
  
-ul li:hover ul {
+nav ul li:hover ul {
     transition: .5s;
       display: block;
     color: #00ca69;
@@ -81,6 +81,8 @@ nav .dropdown{
     margin: 0;
     padding: 0;
     font-weight: 100;
+    background: red;
+    z-index: 9999px;
 }
  
  

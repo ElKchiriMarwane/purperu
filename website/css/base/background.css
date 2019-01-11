@@ -3,7 +3,16 @@
     background-size: contain;
     display: block;
 }
-
+.backgroundfilms {
+    background: url(/images/backgrounds/backgroundfilms.gif);
+    background-size: cover;
+    display: block;
+}
+.backgroundfilms1 {
+    background: url(/images/backgrounds/backgroundfilms.gif);
+    background-size: contain;
+    display: block;
+}
 body,
 html {
     margin: 0;
@@ -11,7 +20,7 @@ html {
 }
 
 .backgroundimagefednetwerk {
-    background-image: url(/images/backgrounds/background-fed.gif);
+    background-image: url(/images/backgrounds/backgroundfed-netwerken.gif);
     background-size: contain;
 }
 

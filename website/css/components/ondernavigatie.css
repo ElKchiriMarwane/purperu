@@ -1,16 +1,17 @@
 .undernav{
     transition: .5s;
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 20%;
+    
+    
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: block;
+    z-index: -9999px;
 }
 .undernav a{
     margin-right: 40px;
-    background: #f5f6f6;
+    
     transition: .5s;
     float: left;
     font-size: 14px;
