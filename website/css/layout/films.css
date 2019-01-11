@@ -2,8 +2,12 @@ main{
     margin-left: 15%;
     margin-right: 20%;
 }
-div img{
-width:150px;
-    float:right;
+div tesktfilm{
+width:50%;
+    
+    margin-left: 50%
+}div fotofilm{
+width:50%;
+    
     margin-left: 50%
 }
