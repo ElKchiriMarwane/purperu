@@ -178,7 +178,3 @@ transition: .5s;
     margin-left: 70px;
     margin-right: 70px;
 }
-
-article ul {
-    list-style-image:url(../../images/li/li.svg);
-}
