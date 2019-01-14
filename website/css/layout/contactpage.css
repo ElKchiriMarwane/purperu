@@ -1,52 +1,62 @@
 /*--------------------CONTACT/INPUTS/BUTTONS--------------------*/
 body {
     background: #F5F6F6;
-    background-image: url("/images/Background.jpg");
+    background-image: url("../../images/contact/Background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-position: center;
-    display: block;
+
+
 }
 
-body h1 {
+.contacttext {
+    float: left;
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.contacttext h1 {
     font-family: acumin-pro, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 41px;
-    margin-left: 15%;
-    margin-right: 20%;
-    height: 0;
-    margin-top: 250px;
+    font-size: 40px;
+
 }
 
-body h2 {
+.contacttext h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 54px;
-    margin-left: 15%;
-    margin-right: 20%;
 
 }
 
 fieldset {
     border: none;
+    margin: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+.contact{
+    width: 100%;
 }
 
 .contact [name=email],
 .contact [name=subject] {
     height: 30px;
-    width: 50%;
+    width: 90%;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
     border-bottom: 2px solid green;
     border-bottom-left-radius: 10px;
-    margin-left: 15%;
-    margin-right: 20%;
     margin-bottom: 5%;
     padding-left: 0.5%;
     background-color: #F5F6F6;
 }
 
 .contact [name=body] {
-    width: 50%;
+    width: 90%;
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid green;
     border-radius: 10px;
@@ -55,14 +65,11 @@ fieldset {
     padding-top: 0.5%;
     padding-bottom: 100px;
     background-color: #F5F6F6;
-    margin-left: 15%;
-    margin-right: 20%;
 }
 
 .contact button {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #00CA69;
-    /*#00CA69-Green*/
     border: none;
     color: white;
     padding: 2px;
@@ -70,16 +77,14 @@ fieldset {
     text-decoration: none;
     display: inline-block;
     border-radius: 25px;
-    margin-left: 15%;
     margin-right: 20%;
     cursor: pointer;
-    width: 20%
+    width: 50%;
 }
 
 .contact button p {
     margin: 4px 2px;
     width: 100%;
-    height: auto;
     font-size: 21px;
     display: inline-block;
 }
@@ -94,49 +99,66 @@ fieldset {
 
 }
 
-iframe {
-    display: block;
-    margin-left: 15%;
-    margin-right: 20%;
+.map {
+    float: left;
     width: 50%;
-    height: 450px;
-    margin-top: 2%
 }
+
+.map iframe {
+    width: 100%;
+    height: 450px;
+
+}
+
+/*************************
+*        clearfix:       *
+**************************/
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+
+}
+
+/*************************
+*        clearfix:       *
+**************************/
+
 @media only screen and (max-width: 450px) {
-    header img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+   .contacttext {
+    float: left;
+    width: 100%;
+    margin-bottom: 10%;
+}
+     .contact button {
+        width: 80%;
+        margin: auto;
     }
 
-    .contact button {
+    .contact [name=email],
+    .contact [name=subject],
+    .contact [name=body] {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 100%;
     }
-    .contact [name=email],
-    .contact [name=subject],.contact [name=body]{
+    .map{
+        width: 100%;
+    }
+    iframe{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
         
     }
-    iframe{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-        height: 350px;
-    }
     body {
     background: #F5F6F6;
-    background-image: url("/images/BackgroundMobile.jpg");
-    background-size: cover;
-        background-repeat: no-repeat;
-    display: block;
-}
-    
+    background-image:url("../../images/contact/BackgroundMobile.jpg");
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size:contain;
+    }
+
 }

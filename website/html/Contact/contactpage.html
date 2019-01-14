@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Kinderen en palliatieve zorg</title>
-   <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 
 <body>
-   <header>
+    <header>
         <nav>
 
             <div>
 
             </div>
- <img src="../../images/logo/PZlogo.gif" alt="">
+            <img src="../../images/logo/PZlogo.gif" alt="">
             <div>
                 <i class="fa fa-bars"></i>
             </div>
@@ -25,7 +25,7 @@
             <ul>
 
                 <li><a href="#">home</a></li>
-               
+
                 <li><a href="#">palliatieve zorg <i class="fa fa-sort-desc"></i></a>
                     <ul class="dropdown">
                         <li><a href="#">1</a></li>
@@ -38,11 +38,11 @@
                 <li><a href="#">boeken</a></li>
                 <li><a href="#">films</a></li>
                 <li><a href="#">links</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#" class="active">contact</a></li>
             </ul>
         </nav>
     </header>
-      <script type="text/javascript">
+    <script type="text/javascript">
         $("nav div").click(function() {
             $("ul").slideToggle();
             $("ul ul").css("display", "none");
@@ -59,27 +59,39 @@
             }
         });
     </script>
-    <main>
+    <main class="clearfix">
         <!--------------------CONTACT/INPUTS/BUTTONS-------------------->
-        <h1>Contacteer</h1>
-        <h2>ons</h2>
-<form method="get" action="mailto:swazzoyun@gmail.com">
-    <fieldset>
-        <div class="contact">
-            <input type="email" name="email" placeholder="E-mail">
-            <input type="text" name="subject" placeholder="Onderwep">
-            <input type="text" name="body" placeholder="Bericht">
-            <button type="submit">
-                <p>verzenden</p>
-            </button>
-        </div>
+     
+        <div class="contacttext">
+            <h1>Contacteer</h1>
+            <h2>ons</h2>
+        <form method="get" action="mailto:info@palliatief.be">
+            <fieldset>
+                <div class="contact">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="text" name="subject" placeholder="Onderwep">
+                    <input type="text" name="body" placeholder="Bericht">
+                    <div class="buttonn"> <button type="submit">
+                            <p>verzenden</p>
+                        </button></div>
+                </div>
             </fieldset>
-</form>
+        </form>
+        </div>
+                    <div class="map">
+                        <iframe src="https://maps.google.com/maps?hl=en&amp;q=J.%20Vander%20Vekenstraat%20158%20-%201780%20WEMMEL+(Federatie%20Palliatieve%20Zorg%20Vlaanderen%20vzw)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <style>
+                #gmap_canvas img {
+                    max-width: none !important;
+                    background: none !important
+                }
+            </style>
+        
+            </div>
     </main>
     <!--------------------FOOTER-------------------->
-    
+
     <footer>
-                      <div style="overflow:hidden;"><iframe src="https://maps.google.com/maps?hl=en&amp;q=J.%20Vander%20Vekenstraat%20158%20-%201780%20WEMMEL+(Federatie%20Palliatieve%20Zorg%20Vlaanderen%20vzw)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
         <div class="footer-main-div">
             <div class="footer-menu-one">
                 <div class="footer-social-icons">
