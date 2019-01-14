@@ -46,4 +46,8 @@ hr{
         width: 65%;
         
     }
+    .links img{
+        width: 20px;
+        margin-left: 7px;
+    }
 }
