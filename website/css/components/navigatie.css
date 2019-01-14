@@ -6,6 +6,7 @@ body {
       margin: 0;
       padding: 0;
 }
+
 nav img{
     width: 150px;
     display: block;
@@ -19,14 +20,12 @@ nav ul {
       margin: 75px;
       padding: 0;
       list-style-type: none;
-      
       position: relative;
     text-align: right;
 }
  
 nav ul li {
-    color: #00ca69;
-    transition: .5s;
+    
       display: inline-block;
 }
  
@@ -101,7 +100,6 @@ nav div {
 @media(max-width: 1023px) {
     nav img{
         float: right;
-        margin-right: 20%;
         margin-top: 1%;
     }
       nav div {
@@ -128,11 +126,9 @@ nav div {
  
  
 }
-@media(max-width: 1023px) {
-    nav img{
-        width: 100px;
-    }
+@media(max-width: 600px) {
     nav div{
-        margin-left: 65px;
+        margin-left: ;
     }
+    
 }

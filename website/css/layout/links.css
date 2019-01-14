@@ -42,12 +42,18 @@ hr{
     .links{
         margin-top: 100px;
        
-        
+        margin-right: 0px;
         width: 100%;
         
     }
     .links img{
         width: 20px;
         margin-left: 7px;
+    }
+    .links a{
+        font-size: 15px;
+    }
+    .links p{
+        font-size: 13px;
     }
 }

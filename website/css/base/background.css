@@ -1,17 +1,20 @@
 .backgroundimagelinks {
-    background: url(/images/backgrounds/backgroundimage.png);
+    background: url(../../images/backgrounds/backgroundimage.png);
     background-size: contain;
     display: block;
 }
 .backgroundfilms {
-    background: url(/images/backgrounds/backgroundfilms.gif);
+    background: url(../../images/backgrounds/backgroundfilms.gif);
     background-size: cover;
     display: block;
 }
 .backgroundfilms1 {
-    background: url(/images/backgrounds/backgroundfilms.gif);
+    background: url(../../images/backgrounds/backgroundfilms.gif);
     background-size: contain;
     display: block;
+}
+.backgroundpz{
+    background: url(../../images/backgrounds/background-pz.png)
 }
 body,
 html {
@@ -20,12 +23,12 @@ html {
 }
 
 .backgroundimagefednetwerk {
-    background-image: url(/images/backgrounds/backgroundfed-netwerken.gif);
+    background-image: url(../../images/backgrounds/backgroundfed-netwerken.gif);
     background-size: contain;
 }
 
 @media only screen and (max-width:1023px) {
-    .backgroundimagelinkd {
+    .backgroundimagelinks {
         background: #F6F5F5;
     }
 }
