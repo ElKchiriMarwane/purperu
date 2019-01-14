@@ -2,8 +2,44 @@ main{
     margin-left: 15%;
     margin-right: 20%;
 }
-div img{
-width:150px;
-    float:right;
-    margin-left: 50%
+.tekstfilm{
+    width: 70%; 
+    display: inline-block;
+    
+}
+.tekstfilm p{
+width: 50%;
+    
+    display: inline-block;
+    
+}
+.fotofilm{
+width:100%;
+    
+    float: right;
+    display: inline-block;
+    height: 100%;    
+}
+/*.films{
+    display: inline-block;
+}
+.films p{
+    width: 50%;
+    display: inline-block;
+}.films h1{
+    width: 50%;
+    display: inline-block;
+}*/
+.images{
+    width:20%;
+    position: relative;
+    float: right;
+    display: inline-block;
+    margin-top: 5%;
+ margin-bottom: 5%;
+    height: 100%;
+}
+.box{
+    width:100%;
+    display: inline-block;
 }
