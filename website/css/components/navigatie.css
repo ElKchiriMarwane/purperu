@@ -81,7 +81,7 @@ nav .dropdown{
     margin: 0;
     padding: 0;
     font-weight: 100;
-    background: red;
+    background: #F5F6F6;
     z-index: 9999px;
 }
  
@@ -94,7 +94,6 @@ nav div {
       padding: 0.6em;
       cursor: pointer;
       display: none;
-    margin-left: 100px;
     
     
 }
@@ -107,6 +106,7 @@ nav div {
     }
       nav div {
             display: block;
+          margin: 0;
       }
  
       nav ul {
