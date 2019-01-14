@@ -19,42 +19,46 @@
         <nav>
 
             <div>
-
+<img src="/images/logo/PZlogo.gif" alt="">
             </div>
-<img src="../../images/logo/PZlogo.gif" alt="">
 
             <div>
                 <i class="fa fa-bars"></i>
             </div>
 
             <ul>
+
                 <li><a href="#">home</a></li>
                 
-                <li>palliatieve zorg <i class="fa fa-sort-desc"></i>
+                <li><a href="#">palliatieve zorg <i class="fa fa-sort-desc"></i></a>
                     <ul class="dropdown">
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
+                        <li><a href="nooitteklein_algemeen.html">Ze zijn nooit te klein</a></li>
+                        <li><a href="verdriethoortbijhetleven.html">Verdriet hoort bij het leven</a></li>
+                        <li><a href="geefkans.html">Geef ze de kans om afscheid te nemen</a></li>
+                        <li><a href="doodmaarnietover.html">Dood maar niet over</a></li>
+                        <li><a href="omgaanmetanderen.html">Omgaan met reacties van anderen</a></li>
+                        <li><a href="bijzonderesituaties.html">Bijzondere situaties</a></li>
+                        <li><a href="metkinderenovereuthanasie.html">Met kinderen over euthanasie praten</a></li>
+                        <li><a href="wathelpthulpverleners.html">Wat helpt?</a></li>
                     </ul>
                 </li>
 
                 <li><a href="#">boeken</a></li>
-                <li><a href="/html/films/filmskinderen.html">films</a></li>
-                <li><a href="/html/links/links.html">links</a></li>
-                <li><a href="">contact</a></li>
+                <li><a href="#">films</a></li>
+                <li><a href="#">links</a></li>
+                <li><a href="#">contact</a></li>
             </ul>
         </nav>
     </header>
     <script type="text/javascript">
         $("nav div").click(function() {
             $("nav ul").slideToggle();
-            $("nav ul").css("display", "none");
+            $("nav ul ul").css("display", "none");
         });
 
         $("nav ul li").click(function() {
-            $("ul ul").slideUp();
-            $(this).find('ul').slideToggle();
+            $("nav ul ul").slideUp();
+            $(this).find('nav ul').slideToggle();
         });
 
         $(window).resize(function() {
@@ -63,13 +67,12 @@
             }
         });
     </script>
-
-
-    <main>
-        <div class="undernav">
+<div class="undernav">
             <li><a href="links.html" class="cool-link active">linken</a></li>
             <li><a href="federatienetwerk.html" class="cool-link">federatie en netwerken</a></li>
         </div>
+    <main>
+        
 
         <div class="legend">
             <h3 class="kinderen">kinderen</h3>

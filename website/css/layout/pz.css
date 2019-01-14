@@ -53,3 +53,9 @@ h3 {
 h3:first-of-type {
     margin-top: -15px;
 }
+
+@media only screen and (max-width:1023px) {
+    article p {
+        padding-right: 1%;
+    }
+}
